@@ -28,7 +28,7 @@ int main()
  
     shuffle(array,array_size);
     for (int i = 0 ; i < array_size; i++) 
-        printf("card %d  is %d\n", i,array[i]);
+        printf("card %d  is %d\n", i+1,array[i]);
     
     return 0;
 }
